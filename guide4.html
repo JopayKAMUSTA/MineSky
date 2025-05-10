@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guide</title>   <link rel="stylesheet" href="style.css">\
+    <title>Guide</title>   
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Mine.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +16,9 @@
         <strong>MineSky</strong>
         <nav>
             <a href="index.html">Home</a>
-            <a href="building.html">Builds</a>
-            <a href="mobs.html">Mobs</a>
-            <a href="guide.html">Guide</a>
+            <a href="building.html">Build</a>
+            <a href="mobs.html">Mob</a>
+            <a class="active" href="guide.html">Guide</a>
         </nav>
         <button class="login">Login</button>
     </header>
@@ -24,24 +26,107 @@
         <div class="paginations">
             <button class="nav-btn">&lt;</button>
             <div class="page-numbers">
-            <a href="#">1</a>
-            <a href="#">2</a>
-            <a href="#">3</a>
-            <a href="#">4</a>
-            <a href="#">5</a>
-            <a href="#">6</a>
-            <a href="#">7</a>
-            <a href="#">8</a>
-            <a href="#">9</a>
-            <a href="#">10</a>
+            <a href="guide1.html">1</a>
+            <a href="guide2.html">2</a>
+            <a href="guide3.html">3</a>
+            <a class="active" href="guide4.html">4</a>
+            <a href="guide5.html">5</a>
+            <a href="guide6.html">6</a>
         </div>
             <button class="nav-btn">&gt;</button>
         </div>
 
     <main class="main-content">
-       <div class="img-holderr"> <img src="Images/Tips.png" alt="picture"></div>
+       <div class="img-holderr"> <img src="Images/cmd.png" alt="picture"></div>
         <div class="text-content">
-            <p>Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos...</p>
+  <h2>What is a Command Block?</h2>
+  <p>A <strong>Command Block</strong> is a special block in Minecraft that lets you run commands automatically. It's often used in creative mode for automation, maps, or mini-games.</p>
+
+  <h2>How to Get One</h2>
+  <p>Use this command:</p>
+  <code>/give @p command_block</code>
+
+  <h2>Types of Command Blocks</h2>
+  <table>
+    <tr>
+      <th>Type</th>
+      <th>Color</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td>Impulse</td>
+      <td>Orange</td>
+      <td>Executes once when powered.</td>
+    </tr>
+    <tr>
+      <td>Chain</td>
+      <td>Green</td>
+      <td>Runs after the block behind it runs.</td>
+    </tr>
+    <tr>
+      <td>Repeat</td>
+      <td>Purple</td>
+      <td>Repeats as long as powered.</td>
+    </tr>
+  </table>
+
+  <h2>Using a Command Block</h2>
+  <ol>
+    <li>Place the command block (Creative Mode only).</li>
+    <li>Right-click to open its menu.</li>
+    <li>Type a command (e.g. <code>/say Hello!</code>).</li>
+    <li>Power it with redstone (lever, button, etc.).</li>
+  </ol>
+
+  <h2>Target Selectors</h2>
+  <table>
+    <tr>
+      <th>Selector</th>
+      <th>Targets</th>
+    </tr>
+    <tr>
+      <td><code>@p</code></td>
+      <td>Nearest player</td>
+    </tr>
+    <tr>
+      <td><code>@r</code></td>
+      <td>Random player</td>
+    </tr>
+    <tr>
+      <td><code>@a</code></td>
+      <td>All players</td>
+    </tr>
+    <tr>
+      <td><code>@e</code></td>
+      <td>All entities</td>
+    </tr>
+    <tr>
+      <td><code>@s</code></td>
+      <td>Itself</td>
+    </tr>
+  </table>
+
+  <h2>Example Commands</h2>
+  <ul>
+    <li><code>/tp @p 100 64 100</code> - Teleport player.</li>
+    <li><code>/give @p diamond_sword</code> - Give item.</li>
+    <li><code>/time set day</code> - Set time.</li>
+    <li><code>/summon lightning_bolt ~ ~ ~</code> - Summon lightning.</li>
+  </ul>
+
+  <h2>Advanced Uses</h2>
+  <ul>
+    <li>Create adventure maps.</li>
+    <li>Use with redstone circuits.</li>
+    <li>Chain complex commands.</li>
+    <li>Use scoreboards or data packs.</li>
+  </ul>
+
+  <h2>Tips & Warnings</h2>
+  <ul>
+    <li>Repeat blocks can lag/crash your world—use with caution!</li>
+    <li>Only use in trusted maps or servers.</li>
+  </ul>
         </div>
 
     </main>
@@ -50,21 +135,20 @@
         <div class="footer-top">
             <strong>MineSky</strong>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQ</a>
+                <a href="index.html">Home</a>
+                <a href="help.html">Help</a>
+                <a href="contact.html">Contact</a>
+                <a href="faq.html">FAQ</a>
             </nav>
             <div class="social-icons">
-                <i class='bx bxl-facebook-circle' ></i>
-                <i class='bx bxl-instagram' ></i>
-                <i class='bx bxl-tiktok' ></i>
+               <a href="#"><i class='bx bxl-facebook-circle' ></i></a> 
+               <a href="#"> <i class='bx bxl-instagram' ></i></a>
+                <a href="#"></a><i class='bx bxl-tiktok' ></i></a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>@ 2024 MineSky. All rights reserved.</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <p>&copy; 2025 MineSky. All rights reserved.</p>
+
         </div>
     </footer>
 </body>

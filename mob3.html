@@ -4,83 +4,96 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mob</title>
-    <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Mine.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <strong>MineSky</strong>
-
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="building.html">Builds</a>
-            <a href="mobs.html">Mobs</a>
-            <a href="guide.html">Guide</a>
-        </nav>
-        <button class="login">Login</button>
-    </header>
+  <header>
+            <strong>MineSky</strong>
+    
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="building.html">Build</a>
+                <a class="active" href="mobs.html">Mob</a>
+                <a href="guide.html">Guide</a>
+            </nav>
+            <button class="login">Login</button>
+        </header>
 
     <div class="paginations">
         <button class="nav-btn">&lt;</button>
         <div class="page-numbers">
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#">5</a>
-        <a href="#">6</a>
-        <a href="#">7</a>
-        <a href="#">8</a>
-        <a href="#">9</a>
-        <a href="#">10</a>
+        <a href="mob1.html">1</a>
+        <a href="mob2.html">2</a>
+        <a class="active" href="mob3.html">3</a>
+        <a href="mob4.html">4</a>
+        <a href="mob5.html">5</a>
     </div>
         <button class="nav-btn">&gt;</button>
     </div>
 
     <main>
         <section class="featured-1">
-            <img class="img-holder" src="Images/mob1.png" alt="picture">
-            <h2>Zombie</h2>
-            <p class="description">
-                Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos...
-            </p>
+            <img class="img-holder" src="Images/irongolem.png" alt="picture">
+            <h2><u>Iron Golem</u></h2>
+            <div class="description">
+                <section>
+      <h2>Overview</h2>
+      <p>
+        The Iron Golem is a large, strong, neutral mob in Minecraft, designed to protect villagers and players from hostile threats. Built from iron blocks and a carved pumpkin, this powerful entity roams villages, defending against zombies, skeletons, and more.
+      </p>
+    </section>
+
+    <section>
+      <h2>Behavior</h2>
+      <p>
+        Iron Golems patrol villages and attack hostile mobs by delivering massive melee hits. They are passive toward players unless provoked. When damaged, Iron Golems show cracks on their body but can be repaired using iron ingots.
+      </p>
+    </section>
+
+    <section>
+      <h2>Spawning & Utility</h2>
+      <p>
+        Iron Golems naturally spawn in villages when enough villagers are present and meet specific conditions. Players can also create them manually using four iron blocks and a carved pumpkin. They’re commonly used in iron farms or to safeguard villagers.
+      </p>
+    </section>
+
+    <section>
+      <h2>Fun Facts</h2>
+      <ul>
+        <li>Iron Golems can hold poppies and offer them to baby villagers.</li>
+        <li>They deal up to 21 damage per hit — one of the strongest melee mobs in Minecraft.</li>
+        <li>Unlike most mobs, they don't take fall damage.</li>
+      </ul>
+    </section>
+            </div>
         </section>
 
-        <section class="zombie-grid">
-            <div class="zombie-card">
-                <img src="Images/mob1.png" alt="picture">
-                <h3>Zombie</h3>
-            </div>
-            <div class="zombie-card">
-                <img src="Images/mob1.png" alt="picture">
-                <h3>Zombie</h3>
-            </div>
-        </section>
+       
     </main>
 
-    <footer>
-        <div class="footer-top">
-            <strong>MineSky</strong>
-            <nav>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
-                <a href="#">FAQ</a>
-            </nav>
-            <div class="social-icons">
-                <i class='bx bxl-facebook-circle' ></i>
-                <i class='bx bxl-instagram' ></i>
-                <i class='bx bxl-tiktok' ></i>
+   <footer>
+            <div class="footer-top">
+                <strong>MineSky</strong>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="help.html">Help</a>
+                    <a href="contact.html">Contact</a>
+                    <a href="faq.html">FAQ</a>
+                </nav>
+                <div class="social-icons">
+                   <a href="#"><i class='bx bxl-facebook-circle' ></i></a> 
+                   <a href="#"> <i class='bx bxl-instagram' ></i></a>
+                    <a href="#"></a><i class='bx bxl-tiktok' ></i></a>
+                </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 MineSky. All rights reserved.</p>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-        </div>
-    </footer>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MineSky. All rights reserved.</p>
+            </div>
+        </footer>
 </body>
 </html>    

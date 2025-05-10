@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-       <link rel="shortcut icon" href="images/Mine.png">
+    <title>Help</title>
+   <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Mine.png">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +16,7 @@
         <strong>MineSky</strong>
 
         <nav>
-            <a class="active" href="index.html">Home</a>
+            <a href="index.html">Home</a>
             <a href="building.html">Build</a>
             <a href="mobs.html">Mob</a>
             <a href="guide.html">Guide</a>
@@ -24,37 +24,29 @@
         <button class="login">Login</button>
     </header>
 
-    
-    <section class="hero">
-        <div class="hero-text">
-            <p>Welcome to MineSky this site will help you how to be a pro someday</p>
-        </div>
-      <img class="hero-img" src="Images/Player.png" alt="Player">
-    </section>
+    <main class="help-content">
+        <h1>How can we help you?</h1>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name">
 
-    <section class="features">
-        <h3>Features</h3>
-        <div class="feature-grid">
-            <div class="feature-item"><a href="building.html"><img src="Images/house.png" alt="House"></a></div>
-            <div class="feature-item"><a href="mobs.html"><img src="Images/mob1.png" alt="Mobs"></a></div>
-            <div class="feature-item"><a href="guide.html"><img src="Images/Tips.png" alt="Guide"></a></div>
-        </div>
-    </section>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
 
-    <section class="community">
-        <div class="community-text">
-            <p>Share you experience here in our community</p>
-        </div>
-       <a href="community.html"><img class="community-img" src="Images/sword.png" alt="Community"></a></div>
-    </section>
-    
+            <label for="message">Message</label>
+            <textarea name="message" name="message" rows="5"></textarea>
 
-    <footer>
+            <button type="submit">Send</button>
+        </form>
+        <p class="support-email"><strong>Support@MineSky.com</strong></p>
+    </main>
+
+     <footer>
         <div class="footer-top">
             <strong>MineSky</strong>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="help.html">Help</a>
+                <a class="active" href="help.html">Help</a>
                 <a href="contact.html">Contact</a>
                 <a href="faq.html">FAQ</a>
             </nav>
